@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Tables</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container my-5">
+    <h1 class="text-center mb-5">Animal Tables</h1>
+
+    <!-- Table 1: Big Cats -->
+    <div id="bigCatsContainer" class="mb-5">
+      <h3>Big Cats</h3>
+      <button class="btn btn-primary mb-2" onclick="addAnimalPrompt('bigCats')">Add Animal</button>
+      <table id="bigCatsTable" class="table table-bordered table-hover"></table>
+    </div>
+
+    <!-- Table 2: Dogs -->
+    <div id="dogsContainer" class="mb-5">
+      <h3>Dogs</h3>
+      <button class="btn btn-primary mb-2" onclick="addAnimalPrompt('dogs')">Add Animal</button>
+      <table id="dogsTable" class="table table-bordered table-hover"></table>
+    </div>
+
+    <!-- Table 3: Big Fish -->
+    <div id="bigFishContainer">
+      <h3>Big Fish</h3>
+      <button class="btn btn-primary mb-2" onclick="addAnimalPrompt('bigFish')">Add Animal</button>
+      <table id="bigFishTable" class="table table-bordered table-hover"></table>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.bordered-image {
+    border: 2px solid black;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .bordered-image:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+  }
+  
+  .blue-italic-text {
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+  }
+  
